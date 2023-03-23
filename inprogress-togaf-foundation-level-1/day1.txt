@@ -1,0 +1,576 @@
+Architektura Korporacyjna:
+dla organizacji małych, średnich i dużych,
+dla małych szczególnie jeśli wzrost
+głównie dla korporacji, ale nie wyłącznie
+dla przedsiębiorstw
+również dla organizacji użytku publicznego, również dla instytucji rządowych i pozarządowych
+
+Przedsiębiorstwo:
+twór organizacyjny
+ma zasoby (materiałowe, kapitałowe) do realizacji celu właściciela
+musi mieć pewną dojrzałość
+cel właściciela to cel nadrzędny
+
+Misja przedsiębiorstwa
+powód
+determinuje właściciel
+
+Właściciel:
+osoba fizyczna
+grupa
+
+Przedsiębiorstwo vs. Projekt (to też organizacja, chociaż tymczasowa):
+powoływane w sposób trwały
+samodzielne decyzyjne, finansowo
+system złożony otwarty (interakcja z otoczeniem)
+w pewnym otoczeniu prawnym, regulatorzy
+musi rywalizować, więc uczyć się
+jeśli w przestrzeni gospodarczej to zaspokaja potrzeby innych
+
+Przedsiębiorca:
+właściciel
+łączy czynniki produkcji
+przenosi zasoby z niższego poziomu efektywności ekonomicznej do wyższego
+wychwytuje szanse
+dąży do przystosowania się warunków
+
+
+zadanie EA:
+- zwinność na poziomie organizacji
+
+Korporacja:
+organizacja lub grupa powiązanych
+konglomerat organizacji, do pewnego stopnia autonomiczne
+ale główny cel wspólny
+wspólne główne właściwości
+
+Główne właściwości:
+najbardziej interesujące dla TOGAF
+
+zadanie EA:
+zidentyfikowanie zestawu celów, które są wspólne
+zidentyfikowanie głównych właściwości
+żeby rozwijać i doskonalić g.w. -> technologie informacyjne jako główne narzędzie prowadzenia działalności
+Jednym zdaniem: Business - IT alignment, synergia
+efektywne użycie technologi informacyjnej
+
+EA:
+ogół unikalnych właściwości K. które powodują, że organizacja jest w stanie realizować misję
+nie detale operacyjne
+ 
+EA:
+alternatywna definicja
+różne perspektywy
+- opis przedsiębiorstwa, jak funkcjonuje, struktury, jakie procesy biznesowe, jak wykorzystywane zasoby, jakie relacje
+-- też, raczej formalny
+-- również pryncypia, wytyczne, do zarządzania zasobami, model i styl zarządzania, model zarządzania ewolucją, enterprise governance, ociera się o ład architektoniczny, określanie środków, monitorowanie realizacji celów
+-- opis
+- potrzeba ładu szczególnie w zarządzaniu IT
+- czapa struktury kierowania działaniem lub ewolucją, transformacją cyfrową
+
+Transformacja cyfrowa:
+jak prawidłowo zrealizować?
+użyć EA, ład architektoniczny
+kierowanie organizacją w średnim i długim horyzoncie
+
+EA:
+cel współczesnych przedsiębiorstw: automatyzacja procesów (stary)
+co nowego: obecność infrastruktury IT
+- duża złożona trudna do zrozumienia
+- a przecież główne narzędzie
+przeniesienie nacisku z architektury procesów na architekturę korporacyjną
+
+problem:
+istnienie dwóch grup osób:
+specjaliści od zarządzania
+specjaliści IT
+luka kompetencyjna, trudności we współpracy
+EA: wypełnia lukę, umożliwia dialog
+EA umożliwia transformację w kierunku Business - IT alignment
+EA: rozwija koncepcje zarządzania z uwzględnieniem IT
+
+
+wiele firm:
+słabo sobie radzi z planowaniem strategicznym długoterminowym lub  jego implementacją
+nie potrafi wykorzystać potencjału, nie nadąża za zmianami
+-- przechodzimy z planowania 5 lat na 3 lata
+jak sobie poradzić z działaniem 24/7?
+jak poradzić sobie z działaniami magicznymi (jakieś działania, ale po co?)
+
+co proponuje EA:
+trzeba walczyć nad problemem utraty kontroli nad IT
+bo organizacje staja się zależne od IT
+powinniście doskonalić się w dwóch obszarach:
+standaryzacja: ujednolicenie procesów biznesowych, opisanie, kontrola nad przebiegiem
+integracja: uspójnienie zasobów z których korzysta przedsiębiorstwo, żeby był przepływ informacji, informacja jest kluczowym zasobem, działalność powinna być oparta wiedzy, ujednolicenie danych, określenie zakresu wymiany danych, decyzje strategiczne o wymianie danych, dostępie, podstawowy instrument prowadzenia działalności są dane (IT pełni rolę służebną)
+
+Fundament działalności:
+procesy
+system IT
+
+EA:
+nie wszystkie, tylko kluczowe
+mission critical components
+czerpie z wojskowości
+
+Wtedy:
+wyższy poziom dojrzałości
+kolejne inicjatywy nie wprowadzają złożoności
+(kiedyś coś nowego, to nowy system, więc nowa złożoność, redundancja, aż do przerostu możliwości zarządzania)
+
+2 kierunki:
+standaryzacja procesów
+integracja danych
+
+3 kierunki:
+wypracować model działania, jak chcemy żeby przedsiębiorstwo działało
+model współpracy z IT
+
+EA:
+technika, styl zarządzania, żeby spoić Biznes i IT
+
+EA:
+to nie SAP: kupimy i wdrożymy
+wymaga czasu i zaangażowania interesariuszy
+
+EA:
+metoda transformacji organizacji
+"restrukturyzacja", ale w sposób uporządkowany
+cyfrowa transformacja
+
+EA ryzyka:
+- konieczne zaangażowanie interesantów
+- żeby byli konsultantami
+- TOGAF tego pilnuje
+
+EA/TOGAF:
+dążenie do uporządkowania procesów i infrastruktury IT
+według pewnej logiki
+metoda transformacji z as-is do pożądanego
+
+Alternatywa do TOGAF:
+COBIT
+
+Egzamin:
+głównie pojęcia i definicje
+brak zagadnień problemowych
+
+Korporacja wcale nie musi być duża
+musi być złożona z organizacji/jednostek wewnętrznych
+
+A.:
+(podejście systemowe): koncepty, właściwości, komponenty, powiązania, pryncypia systemu
+(TOGAF): struktura komponentów, powiązania, pryncypia, zasady, reguły regulujący jak system został zaprojektowany i jak ma ewoluować
+
+EA vs. solution architecture (konkretne rozwiązanie)
+
+Architecture vs Design
+
+TOGAF:
+inwestycje w infrastrukturę IT łatwiej zrozumiałe, uzasadnialne
+dlaczego wydatki, dlaczego takie
+
+Moduł 2
+
+Framework:
+- środowisko pracy
+- narzędzia: nie w sensie aplikacji, ale w sensie porad, wskazówek
+
+Zachman
+protoplasta architektów korporacyjnych
+był systemowcem
+
+siatka Z.
+przy opisie różne perspektywy
+- wizjonera
+- właściciela
+- projektanta
+- budowniczego
+- dostawcy komponentów częściowych
+plus schemat myślowy:
+- co
+- dlaczego
+- gdzie
+- kto
+- kiedy
+- dlaczego
+
+siatka Z -> TAFIN -> TOGAF
+
+Co to jest TOGAF?
+- framework
+- nie tylko metodyka
+- centralna ADM (zaplanowanie i realizacja)
+- koncepcja biblioteki
+- ACF: zarządzanie dokumentacją, opisami
+- ECaT: ewoluuje przedsiębiorstwo w ślad ze zmianami opisanymi, architektura również ewoluuje
+- ACN: zbiór zasad i wytycznych na co uważać przy wdrażaniu TOGAF
+- TCF: konkretna metodyka ACF
+- T ADM & CN
+- TECaT:
+- BVision: koncepcje i wizje biznesowe
+- BCapabilites: zdolności operacyjne ro realizacji
+- więc TOGAF pomaga przekształcić Bvision -> BCapabilitues
+- TOGAF: narzędzie do transformacja od wizji do zbudowania zdolności operacyjnych
+- porady, w zasadzie brak wsparcia narzędziowego poza ArchiMate
+
+ArchiMate
+oparty o UML
+uszczegółowiony
+koncepty uszczegółowione
+- elementy pasywne
+- elementy behawioralne, z logiką, potrafią wykonywać czynności
+- el. aktywne struktury, inicjują pewne rzeczy, zwykle el. behawioralne
+warstwy: logiki, technologii, aplikacji
+graficznie korzysta z UML, ale wyrósł BPMN
+
+TOGAF konkurencja:
+FEAF
+DoDAF
+MODAF
+
+
+Standard otwarty:
+- można użyć w organizacji
+- ale jeśli świadczyć usługi na rzecz innych podmiotów, to wymaga pozwolenia
+
+Egzamin:
+zwróć uwagę  na slajd 11/42
+
+TOGAF 9.2
+wyodrębnia standard plus biblioteki
+
+TOGAF jest top-down (s21/42):
+żeby z nim pracować najpierw należy poznać/opracować misję
+-> opracować architekturę biznesu, jak poukładany obecnie, co zmienić
+-> analiza systemów informacyjnych
+-> analiza architektura techniczna
+
+Core Concepts: ADM (slajd 20/42)
+etapy pracy nad EA, od przystąpienia do realizacji
+A-D specyfikujemy
+E-F przygotowujemy
+G - nadzór nad faktyczną implementacją
+C: np. że potrzebny nowy system
+E: dyskusja, skąd wziąć: zlecić, wykonać, kupić, użyć Open Source
+F: już wybrane, więc jak to wdrożyć? planowanie MS Project, co/kiedy/kim
+jest to proces, z wyraźnymi etapami, powinien być cykliczny, wdrożenie to nie koniec
+iteracyjny, zgodnie ze strzałkami, możliwe nawrotki
+proces ciągły (w praktyce) nie dyskretny (formalnie)
+ostrożnie przy realizacji współbieżnej realizacji etapów
+
+Guidelines vs. Techniques (21/42)
+G: jak dostosować, co mogę zrobić?
+T: konkretne techniki (23/42)
+- jak przygotować techniki migracji
+- jak planować rozwój usług i infrastruktury, żeby mieć nowe zdolności
+- wymienione w bibliotece TOGAF, wymaga rejestracja
+- mają zastosowanie w różnych etapach (czasem wielu) (24/42)
+
+Egzamin:
+ważny podręcznik, nie doświadczenie
+
+TOGAF:
+dualne spojrzenie na EA:
+- spojrzenie jak przedsiębiorstwo jest poukładane/funkcjonuje faktycznie
+- opis jak okno działa, wizualizacja, dokumentacja
+
+Dokumenty Deliverable (28/42)
+oficjalne, wiążące opisy
+merytoryczne lub zarządcze
+
+Artefakty:
+nie wchodzą w skład oficjalnej
+krótkie opisy, piktogramy, tabele/zestawienia, katalogi/listy
+pozostałości z procesu projektowego
+
+
+Building blocks (28/42)
+jakie komponenty, żeby zyskać nowe capabilities
+lub wymienić
+
+Architecture Deliverables (29/42)
+
+repozytorium architektury:
+np. repozytoria sprzężone z repozytoriami Sparx EA
+
+Cababilty (31/42)
+zdolność biznesowa/operacyjna
+może posiada organizacja, osoba, system
+
+T9.2
+library
+norma ISO 42010
+drobne poprawki
+
+Relacje TOGAF vs. inne frameworki
+TOGAF jako framework powinien współpracować z innymi frameworkami
+np. z PRINCE, ITIL, COBIT (37/42)
+nie dubluj
+
+
+TOGAF nie metodyka inwazyjna, że przychodzi i wyrzuca
+raczej miękko wdrażany
+nie powinien zastępować innych frameworków
+
+Module 04
+ADM
+- centralna faza Requirement Management
+- strzałka do każdej fazy
+- służy do zbierania wymagań i zarządzania
+-- wymagania, które obligują (requirement)
+-- wymagania, które są ograniczeniami (constraints)
+może być bardzo dużo i mają wpływ
+mogą powstawać w każdej fazie i oddziaływać na każdą fazę
+T. nie mówi jak konkretnie zarządzać, ale że są ważne
+
+cykl ADM, bo cykliczny
+method ADM, bo to metoda
+podlega dostosowaniom
+rdzeniowa metoda dla TOGAF
+
+ADM trochę wygląda jak projekt
+ktoś alokuje, upoważnia
+ale projekt ma czas trwania, kończy się
+zaś EA open ended
+
+TOGAF (7/47)
+jeśli
+zawęź zakres prac nad architekturą, w którym segmencie działalności
+przedsiębiorstwo może mieć różne obszary/branże/segmenty rynku
+nie od razu dla całości, tam gdzie WKK widzi potrzebę zmian
+nie według pionów funkcyjnych, według capabilities/segmentu
+
+każde przedsiębiorstwo ma 1 architekturę strategiczną
+-> kilka architektur segmentu
+-> kilka architektur capabilities
+
+Preliminary(10/47)
+nie bagatelizuj, bez litery, ale może przesądzić o sukcesie
+
+cele:
+jakie zdolności chcemy posiadać
+czy mamy kompetencje
+czy mamy inne frameworki
+czy organizacja jest odpowiednio dojrzała (modele do oceny dojrzałości)
+podejścia:(11/47)
+zidentyfikuj/rozpoznaj przedsiębiorstwo
+główne powódki
+określ wymagania, czego się oczekuje od architektury i prac na architekturą (ryzyko pełzania zakresu, zmiana)
+zdefiniuj princypia, które będą determinowały prace nad architekturą
+określ framework z którego będziesz korzystał
+określ jak będzie wyglądała współpraca/wsparcie przez inne frameworki
+sprawdź, czy przedsiębiorstwo już stosuje EA, określ dojrzałość obecnego EA
+
+jakie są kroki: (12/47)
+zawęź, zbyt szeroki front prac oznacza zwykle porażkę
+sprawdź wzorce, metody, techniki są stosowane (COBIT, ITIL)
+zdefiniuj i zbuduj zespół do pracy EA
+dostosuj TOGAF (wybierz elementy według potrzeb)
+zastanów się jak się wyposażyć, żeby móc pracować w TOGAF, np wyślij na szkolenia
+
+wyspecyfikowane są osoby i role, ale zatrudnienie dopiero w fazie A
+Główny architekt już w Preliminary
+
+A: Architecture Vision (13/47)
+celem EA jest dostarczenie nowych zdolności, nie architektury
+
+działania (14/47)
+trigger: otrzymanie dokumentu z fazy Preliminary: Request for Architecture Work (zlecenie opracowania architektury)
+potwierdzić/określić zakres prac
+definiujemy definicje
+przygotowujemy
+
+kroki: (15/47)
+ustanów projekt
+zidentyfikuj interesariuszy
+potwierdź/zrozum cele biznesowe, pobudki, ograniczenia
+oceń możliwości
+potwierdź gotowość do biznesowej transformacji
+określ zakres, zawęź
+potwierdź/zrozum pryncypia architektoniczne, włączając pryncypia biznesowe
+rozwiń wizję
+określ wartość wizji
+zidentyfikuj zagrożenia
+przygotuj Statement of Architecture Work (deliverable), zapewnij zatwierdzenie
+
+B (16/47)
+cele:
+Target Business Architecture (deliverable): jak ma funkcjonować i co zrobić
+zidentyfikuj elementy nowe/zmodyfikowane/usunięte (np funkcje biznesowe)
+
+B (17/47)
+podejście:
+dookreślić/dospecyfikuj architekturę biznesu
+
+Egzamin:
+(17/42)
+Develop specific models
+
+B: kroki (18/42)
+wybierz modele, perspektywy, narzędzia/również w sensie metod
+określ a. docelową
+określ braki
+rozpracuj wpływ zmian na widok a.
+skonsultuj
+utwórz Architecture Definition Document (deliverable), pojawia się po raz pierwszy
+
+C: (19/47)
+aplikacje i aplikacje danych
+
+C: (21/47)
+kroki
+zaktualizuj Architecture Definition Document (deliverable)
+
+ADM:
+dwutorowo:
+- as is
+- to be
+żeby zrobić analizę luk
+
+D: (22/47)
+tak naprawdę celem jest opracowanie docelowej architektury
+ale najpierw należy opisać obecną
+
+D: podejście (23/47)
+COBIT komplementarny do TOGAF
+
+D: kroki (24/47)
+dobierz modele/perspektywy/narzędzia
+kroki podobne, udziałowcy inne (np. Administratorzy Sieci)
+utwórz dokument
+
+planistyczne:
+E: cele (25/47)
+wytypowanie preferowanego rozwiązania
+budowanie scenariuszy wariantowych
+opracowanie inicjalnej mapy do zrealizowania architektury
+musi uwzględniać ciągłość pracy przedsiębiorstwa
+specyfikuje się komponenty rozwiązania
+dobieramy ścieżkę migracji do ABB
+
+E:podejście (26/47)
+widzimy as-is (baseline) oraz to-be
+widzimy rozbieżność
+możemy przygotować road mapę
+uwzględniamy wzrost wartości biznesowej
+opracowuje się plan implementacji i migracji
+
+E:kroki (27/47)
+potwierdź determinację organizacji do wprowadzenia zmian
+określ biznesowe ograniczenia
+przegląd luk i upewnij się, że obsłużone
+przeglądnij skonsolidowanych wymagań (centralne koło na diagramie)
+sprawdź gotowość, nie tylko determinacja, na ryzyko biznesowej transformacji
+
+F:cele (28/47)
+zamknij zatwierdź road mapę
+uwzględnij używane obecnie podejścia
+
+F:podejście/działania (29/47)
+uczyń road mapę planem organizacji
+
+F:kroki (30/47)
+sprawdź jak plan współgra z innymi frameworkami
+przypisz wartości biznesowe do elementów wdrożenia
+priorytetyzuj
+zaktualizuj Architecture Definition Document
+przygotuj plan
+zakończ cykl developmentu i oceń czego się nauczyłeś
+
+praca implementacyjna
+praca koncepcyjna już się skończyła
+G:cele (31/47)
+upewnij się, że to co ma być realizowane faktycznie jest tym co chcemy
+bądź wyczulony na Change Requesty
+na. jakaś technologia może w międzyczasie zostać wycofana z rynku
+
+G:podejście (32/47)
+TOGAF nie powinien wypierać/zastępować sprawdzonych metodyk
+fazuj działania
+TOGAF nie implementuje rozwiązań, określa że masz sprawować nadzór
+
+G:kroki (33/47)
+odbiór
+przeglądy poimplementacyjne
+
+H:cele (34/47)
+kończy cykl
+ocena, ewaluacja rozwiązania
+czy zmiana przyniosła taką wartość na jaką liczyliśmy?
+
+H:kroki (35/47)
+określ jak mierzyć
+zmierz
+rozpocznij następną zmianę
+
+faza Requirements Management (37/47)
+praktycznie stale
+
+Analiza luk
+GAP Analysis Technique
+baseline target
+as-is to-be
+macierz
+
+TOGAF rekomenduje standard wersjonowania dokumentów
+
+Egzamin:
+jakie Deliverable, kiedy powstają, kiedy zamykane
+
+Deliverable:
+- pomagają w organizowaniu pracy nad EA
+-- Communication Plan
+-- Tailored Architecture Framework
+-- Architecture Definition Document
+...
+32 rozdział: https://pubs.opengroup.org/architecture/togaf9-doc/arch/
+
+Module 5
+
+Enterprise Continuum
+architecture <-> solutions
+koncepcja, która mówi, że zapamiętać opis architektury w okresie początkowym,
+z biegiem czasu kolejne snapshoty
+można opis uszczegóławiać lub usuwać szczegóły
+ewaluują zarówno opis jak i rozwiązania (11/27)
+architekturę przekształcamy do rozwiązań
+ 
+TOGAF TRM (13/27)
+opis architektury
+prosty, podstawowy
+Foundations Architecture
+
+Architecture Repository (17/27)
+metamodel repozytorium
+Architecture Method == ADM
+Architecture Landscape: zdekompowany opis
+Reference Library: dokumenty pomocnicze
+Governence Log: dziennik
+Architecture Capability: ocena zdolności EA
+
+Klasy informacji (18/27)
+
+Moule 6
+https://pubs.opengroup.org/architecture/togaf9-doc/arch/
+Part IV: Architecture Content Framework
+
+Content Metamodel:
+wytyczne jak zorganizować zarządzanie treścią
+jak archiwizować
+schemat klasyfikacyjny
+30.2.2 Overview of the Content Metamodel
+szuflady na różne dokumenty, sekcje tematyczne
+powiązane z ADM (21/31)
+
+Core Content Metamodel:
+język opisu EA
+można rozszerzyć o pojęcia rozszerzające
+Driver==pobudka
+lepszy jest ArchiMate (bogatszy, ma narzędzia np. Sparx)
+
+Content Metamodel vs. Core Content Metamodel: nie ma związku
+
+Definicje
+https://pubs.opengroup.org/architecture/togaf9-doc/arch/
+30.5 Content Metamodel Entities
