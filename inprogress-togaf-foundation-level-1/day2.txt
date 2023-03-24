@@ -1,0 +1,560 @@
+Module 7
+adaptowanie T.
+Terminology Tailoring: proponuje terminologię, ale nie wymusza
+Process Tailoring: dostosowanie ADM
+Content Tailoring:
+T. duży, ciężki, zwykle nie jest stosowany cały
+
+(7/17)
+należy dostosować do poziomu dojrzałości, szczególnie praktykowania EA
+minimum poziom 3 CMMI
+
+T. nie jest inwazyjny
+nie powinien naruszać zasad biznesowych, architektonicznych
+
+nie powinien wypierać
+integruje się z innymi frameworkami, wewnętrznymi metodami/wzorcami
+
+ADM to tylko jeden z wielu elementów
+służy do wprowadzania zmian o charakterze strategicznym
+nie zastępuje innych metod nadzoru nad rozwojem organizacji
+
+skrój T. na miarę
+T. nie powinien przysłonić celu nadrzędnego organizacji
+
+(9/17)(11/17)
+Partycjonowanie organizacji
+każda organizacja ma swoją misję, wizję, pryncypia - wspólne dla całej organizacji
+
+organizacja zwykle składa się z kilku segmentów działalności
+- na przykład wytwarzanie, przesyłanie, zaopatrzenie
+
+3 warstwy przedsiębiorstwa:
+- biznes
+- aplikacje + dane
+- technologie
+
+każdy z segmentów można analizować osobno pod względem EA
+
+Transaction Architectures:
+baseline -> target
+
+prace nad EA niekoniecznie od razu w całej organizacji
+T. sugeruje podział/partycjonowanie
+ograniczenie zakresu
+często wynika z posegmentowania organizacji
+zalecenie T.: nie pracuj zbyt szerokim frontem
+
+możliwe uwzględnienie również Capabilities
+
+podział przebiega według funkcji biznesowych
+nie dla jednostek organizacyjnych
+
+wpływ partycjonowania na szafę dokumentów
+zwykle odpowiada
+
+(10/17)
+dlaczego partycjonować:
+- redukcja złożoności
+- mniejszy chaos, brak konieczności pracy równoległej, mniej konfliktów, że segment ważniejszy
+- nabierzesz doświadczenia, umiejętności do pracy nad kolejnymi
+
+(9/17)
+klasyfikacja określa kryteria partycjonowania
+kryterium rozdziału na segmenty
+ale nie ma podpowiedzi jakie kryteria
+
+(14/17)
+T. zawsze opracowuje EA top-down
+zawsze nad dwoma: baseline, target
+B, C, D - brain storm, jak to powinno być poukładane, koncepcja
+E - powstaje mapa drogowa realizacji/wdrożenia, wybór
+F - planujemy
+E - F - na przykład brak budżetu, więc wracamy, wybieramy coś innego
+B - E - architecture development
+C - proponuje rozwiązania w domenie danych oraz w domenie aplikacji
+G - H - możliwe, że niektóre projekty już się skończyły, inne jeszcze trwają, niektóre wymagają doimplementowania
+Preliminary - A: bo może się okazać (w ramach rewizji w fazie A, bo w Preliminary jeszcze nie ma architektów), że w zespole brak jakiejś roli (na przykład zapomniano), więc wracamy do P.; albo konieczne szkolenie
+Preliminary - H: może wypłynąć nowa potrzeba, ale brakuje nam umiejętności/wiedzy/zasobu więc wracamy do P.
+
+(13/17)
+jakie odstępstwa/podejścia są dozwolone w ADM
+
+CAL: ADM jest implementowany w stylu wodospadu
+ADI: niesekwencyjnie, bo nawrotki
+ACI: szczególny rodzaj reiteracji, bo nie uszczegółowienie opisu, ale rozwinięcia zdolności do pracy nad architekturą (kompetencje/nowe osoby)
+
+Module 8
+(6/26)
+Pryncypia to zasady z którymi się nie polemizuje
+wytyczne nadrzędne
+zawsze prawdziwe
+zawsze respektowane
+mają pewien obszar zastosowania
+reguły, ogólnego zastosowania
+
+Enterprise principles: zwykle są
+Architecture principles: zwykle nowe
+
+(7/26)
+P. wspomagają proces podejmowania decyzji
+P. zwykle definiuje się tam, gdzie temat jest ważny, trudny
+czasem wskazują jedyną słuszną drogę
+np. działamy zgodnie z prawem
+
+(8/26)
+Architecture principles
+odnoszą się do architektury
+a nawet bardziej do pracy nad architekturą
+nie powinny być sprzeczne z pryncypiami ogólnofirmowymi
+zwykle wzmacniają, uszczegóławiają
+w trudnych momentach pomagają rozstrzygać spory
+
+(9/26)
+przykład:
+A: brak pryncypiów -> pojawiają się nowe wymagania, pojawiają się komplikacje/sprzeczności
+B: przygotowane pryncypia -> spójne wymagania, sprzeczności rozstrzygane dzięki pryncypiom
+
+(12/26)
+katalog pryncypiów
+gromadzi pryncypia biznesowe oraz architektoniczne
+nie wskazują na dobre rozwiązanie, ale wskazują co to znaczy
+
+(15/26)
+szablon definicji/opisu:
+nazwa, pobudki, opis następstw/co może wynikać
+
+(14/26)
+pobudki do wprowadzenia p.:
+jakie cele/funkcje ma spełniać pryncypium
+jakie wartości wyraża
+jakie kwestie załatwia
+pryncypium jest ograniczające
+jakie korzyści
+dodatkowe uwarunkowania
+
+(16/26)
+jako ocenić, czy p. jest dobrze zdefiniowane?
+zrozumiałe? sprawcze? kompletne? (w pełni przekazuje myśl) spójne? ponadczasowe? (stabilne w czasie)
+
+(17/26)
+jaką funkcję spełnia p.:
+sposób na rozwiązywanie sporów
+wyznaczanie kierunków rozwoju
+odzwierciedlenie dobrych praktyk
+przekazują wizję
+są decyzjami, długofalowymi
+wspierają planowanie, bo obowiązują długoterminowo
+
+(18/26)
+przykład:
+p. do architektury danych
+oddziałują głównie w fazie D.
+
+EA to podejście informacyjno centryczne
+
+p. do technologii
+
+(20.)
+są przykłady
+
+(20/26)
+wymagania wynikają z pobudek, potrzeb
+wymagania mogą być ograniczeniami, na przykład żeby szyfrować
+związek między wymaganiami i pryncypiami
+jeśli wymaganie się powtarza, to warto uogólnić w postaci pryncypium
+i odwrotnie z szerokiego/ogólnego pryncypium można wyprowadzić wymaganie
+
+(22/26)
+rodzaje:
+wymagania, które wyglądają i są wymaganiami
+inne: reguły, cechy jakościowe, interfejsy zewnętrzne, ograniczenia/obwarowania, cechy/features
+
+(23/26)
+wymagania sterują pracą ADM
+pojawiają się na każdym etapie ADM
+muszą być respektowane w każdej fazie ADM
+
+Module 9
+(1/40)
+tematy istotne przede wszystkim na etapie A
+
+(8/40)
+wymiary podziału/analizy:
+szerokość, poziom/głębokość, czas
+wymiar czasu szczególnie istotny E, F
+
+(12/40)
+T9.2 metoda scenariuszy biznesowych przeniesiona do biblioteki
+rekomendowana przez T. jako użyteczna metoda do opracowania EA
+goals: cele operacyjne
+objectives: cele strategiczne
+
+(14/40)
+pewne efekty chcemy maksymalizować, minimalizować, poprawiać
+
+(16/40)
+czym jest scenariusz biznesowy
+miarodajny
+
+(17/40)
+pomagają określić wymagania biznesowe
+jednakowe rozumienie
+pomagają w uzyskaniu aprobaty (buy-in)
+w dialogu z pracownikami, dostawcami rozwiązania
+
+(18/40)
+wzorzec działania/pracy nad scenariuszem biznesowym
+opisz problem
+usadów w kontekście, środowisko
+określ cele chcemy osiągnąć
+określ interesariuszy
+określ, które systemy są dotknięte mogą być użyte do rozwiązania
+określ role i odpowiedzialności, gdzie i jak angażowane
+
+warto dodać:
+przeanalizować interakcję między pasywnymi i aktywnymi elementami
+
+(19/40)
+co powinien zawierać dobry scenariusz biznesowy
+wizualizacje interakcji biznesowych i technologicznych
+
+(20/40)
+warto zbudować scenariusz do budowania scenariuszy
+
+Industry 4.0
+Operational Technology (OT)
+IT staje się podstawowym narzędziem, motorem narzędziowym
+
+RISK MANAGEMENT
+
+(23/40)
+ryzyko wpływ niepewności na cele
+odchyłka może być pozytywna lub negatywna
+ 
+(24/40)
+Risk Management Process:
+klasyfikacja
+identyfikacja
+ocena: zrozumienie natury, częstość,
+mitygacja: jak odpowiedzieć, zabezpieczyć
+monitorowanie: czy zabezpieczenia są skuteczne?
+
+analiza ryzyka w każdej fazie ADM, najwyrażniej w fazie F
+największe w fazie G
+
+T. nie poświęca wiele zarządzaniu ryzykiem, bo:
+są dedykowane metodyki do zarządzania ryzykiem
+jeśli myślisz o EA, to musimy mieć system do zarządzania ryzykiem
+
+(25/40)
+klasyfikacja ryzyk:
+czasu, kosztu, zakresu
+
+(27/40)
+macierz ryzyka
+metoda zakłada znajomość, bo wiemy jak często
+ale to niepewność jest największym zagrożeniem
+
+(28/40)
+ryzyka należy obsługiwać/redukować
+można nic nie robić, można przenieść, przygotować odpowiedź
+Preliminary R.: ryzyko na początku
+Mitigation: obsługa
+Residual Risk: ryzyko po zabezpieczeniu, szczątkowe
+obsługa zwykle by akceptowalne szkody, nie do zera, koszty
+
+(29/40)
+ryzyko najważniejsze w fazie G
+
+CAPABILITY-BASED PLANNING
+
+(31/40)
+Capability: umiejętność/zdolność/możliwość organizacji/osoby/systemu
+aby osiągnąć wynik zwykle łączysz capabilities
+
+(32/40)
+metoda/technika na doskonalenie się organizacji poprzez rozwój/nabywanie zdolności operacyjnych/bizneoswych
+można zarządzać:
+- silosowo/functional/vertical
+- horizontal: strefa skrośna
+kluczowe capabilities zwykle wynikają ze współpracy segmentów
+
+(33/40)
+różne zasoby zaangażowane w budowanie
+
+(34/40)
+na capability można wpływać w różnych wymiarach
+
+BUSINESS TRANSFORMATION READINESS ASSESSMENT
+
+(36/40)
+służy do oceny dojrzałości organizacyjnej przedsiębiorstwa
+czy przedsiębiorstwo spełnia minimalne wymagania do EA
+- określ czynniki gotowości
+- przedstaw
+- oceń wskaźniki
+- oceń ryzyka wg wskaźników
+-
+
+(37/40)
+czynniki/wskaźniki gotowości:
+- czy przedsiębiorstwo ma wizję rozwoju (może nie ma, może mglista)
+- czy jest wola/potrzeba/determinacja EA
+- czy jest faktyczna potrzeba EA, żeby obsłużyć problemy
+- czy jest studium przypadku, żeby uzasadnić
+- czy są fundusze
+- czy umiecie pokierować (governance)
+nie ignoruj tej metody, bo może organizacja nie jest gotowa
+
+T. zaleca w fazie A., pojawia się również w E (bo podpisujemy dokumenty, wchodzimy w projekt)
+(ale wstępnie można już w Preliminary, zwykle jednak nie ma zespołu architektów, więc nie ma kim zrobić)
+
+Module 10
+
+TOGAF TECHNICAL REFERENCE MODEL
+
+(7/13)
+wizualizacja
+jak aplikacje współpracują z infrastrukturą technologiczną
+model odpowiada realiom lat 90
+ 
+(8/13)
+TRM to diagram
+patrz: Foundation Architectures (The Enterprise Continuum)
+
+Module 11
+
+ARCHITECTURE GOVERNANCE
+
+(1/28)
+sprawozdanie rozwoju nad EA
+
+(5/28)
+osoby kompetentne i władne
+nadzór nad transformacją cyfrową (określenie poza T.)
+4 - 5 osób, maksymalnie 10
+główni interesariusze
+właściciel, zarząd, dyrektor do spraw informatyzacji CIO
+podobne do PRINCE2 (zespół do zarządzania projektem)
+raczej kieruje
+executive level group
+rozumieją biznes, widzę potrzebę do włączenia IT do podstawowych narzędzi
+
+(6/28)
+rada odpowiada przed właścicielem
+podejmuje kluczowe decyzje odnośnie EA
+wszystkie składowe EA (bo segmentowanie) są spójne
+śledzi trendy rynkowe, uwzględnia w planach rozwojowych
+na etapie realizacji, odpowiada za nadzór, czy zgodnie z planami/specyfikacjami
+odpowiada za wzrost dojrzałości w zakresie praktyki architektonicznej
+rozstrzyga spory, gdy są dwie równoważne drogi
+służy radą, wskazówkami
+dba o alokację właściwych zasobów
+dba o właściwą komunikację
+
+(7/28)
+dba by decyzje/projekty były prawidłowo dokumentowane, chociaż fizycznie się tym nie zajmuje, zajmuje się gł. architekt i jego zespół
+
+(8/28)
+rada jest powoływana:
+scalenie firm
+duże problemy
+przełom technologiczny
+czasem rada jest powołana, ale jeszcze bez oficjalnego nazywania
+po powołaniu ustanawia proces pracy nad architekturą
+zbiera się okresowo
+
+(9/29)
+rada ustanawia procedury formalnego zatwierdzania dokumentów/wnioskowania o zmianę
+czyli to co przy projektach
+
+ARCHITECTURE COMPLIANCE
+
+(11/28)
+przegląd, potwierdzenie, że zgodna z oczekiwaniami
+zwykle, gdy w fazie realizacji G
+najpierw należy określić, że jest oczekiwanie zgodności
+Deliverable podlegają zatwierdzeniu, architektonicznych i organizujących pracę w zespole
+określają zakres prac
+
+(12/28)
+czy projekt jest zgodny z duchem, ideami EA, zgodny z pryncypiami, czy realizacja zgodna
+czy faktycznie realizuje cele biznesowe
+
+(13/28)
+architekt zgłasza gotowość
+rada wybiera jednostkę do pokierowania przeglądu
+przeglądem kieruje główny beneficjent
+identyfikacja architekta z wnętrza jednostki/segmentu
+określenie zakresu przeglądu
+przygotować listy sprawdzające, badanie nie jest luźną rozmową
+ustalenie terminu i miejsce spotkania
+zaprosić głównych wykonawców
+dokonać szczegółowego przeglądu
+raport, konsolidacja raportu
+przedstawienie raportu radzie
+rada podejmuje decyzję o przyjęciu/zatwierdzeniu albo skierowaniu do poprawek
+pod spodem diagramu wskazane osoby odpowiadające
+
+ARCHITECTURE CONFORMANCE
+
+(15/28)
+poziomy zgodności
+relacje między specyfikacją i implementacją
+
+(16/28)
+jak się zachowywać w czasie odbioru:
+jasno komunikuj o celach przeglądu
+które kwestie są/nie są w zakresie
+bądź precyzyjny
+szanuj przepytywanych
+zrozum pytania
+
+ARCHITECTURE GOVERNANCE: CHARACTERISTICS AND KEY SUCCESS FACTORS
+
+(19/28)
+a.g. to praktyka i orientacja
+wymaga wzorców zachowań
+zdyscyplinowanie, transparentność, niezależność, zdolność do tłumaczenia/wyjaśnienia decyzji
+odpowiedzialność
+sprawiedliwość
+
+(20/28)
+obszary działania
+rada architektury realizuje proces
+podprocesy
+dispensation: zgoda na odstępstwa
+monitoring, sprawozdanie przed właścicielem
+określanie dokumentów nadrzędnych
+pracuje na dokumentach/content
+wymaganiach, dokumentach powykonawczych, struktura przedsiębiorstwa
+
+(21/28)
+na jakie rzeczy zwraca uwagę rada
+na wzorce, dobre praktyki
+uwzględniać rolę jednostek
+opierać nadzór na zasadach
+określać z jakich narzędzi, środowisk
+
+ARCHITECTURE CONTRACTS
+
+(23/28)
+kontrakty: porozumienia między sponsorem/właścicielem i wykonawcami/jednostki wewnętrzne
+zawiera się poprzez Deliverable
+co będzie jak będzie
+Request for Architecture Work (Preliminary)
+w fazie G. będą zrealizowane rozwiązania
+
+(24/28)
+F - G zlecenia na wykonanie
+kontrakty pojawiają się w różnych fazach, najwięcej na progu G.
+
+EA to rodzaj projektu
+
+Module 12
+
+ENTERPRISE INTEGRATION
+
+(1/26)
+EA jest spoiwem między biznesem i IT
+
+(5/26)
+boundaryless information flow: manifest TOGAF
+
+(6/26)
+nieograniczony przepływ informacji
+natychmiastowy, swobodny dostęp
+dane otagowane z metadanymi
+
+INTEROPERABILITY REQUIREMENTS
+
+(7/28)
+jak udostępniać/sięgać po dane/usługi
+idea wykonawcza dla manifestu boundaryless information flow
+
+(10/28)
+inter
+na warstwie biznesu, informacji, techniki
+
+(12/28)
+model operacyjny
+propozycja jak wizję realizować
+jak przedsiębiorstwo powinno być poukładane
+model replikacji: wszystkie jednostki biznesowe wykonują bardzo podobną działalność
+- wydziały swoimi klonami
+model unifikacji: wyodrębnienie wspólnych funkcjonalności
+
+(13/26)
+stopnie współpracy w zależności od modelu organizacyjnego:
+1: przepływ danych surowych
+2: wymiana ustrukturyzowanych danych
+3: płynne i automatyczne współdzielenie danych między systemami
+4: j.w. ale współdzielimy informację, automatyczna ekstrakcja wiedzy
+
+(14/26)
+przykład:
+czy istnieje przepływ między interesariuszami
+tabelka
+interoperacyjność nie musi być jednolita
+faza B
+
+(15/26)
+j.w. dla systemów
+faza C
+
+(16/26)
+kluczowy architekt rozjemcą sporów, różnicy zmian
+omawia np z architektem danych
+
+IIIRM
+
+(20/26)
+IIIRM to diagram
+sugeruje, że są systemy dostarczające dane i konsumujące dane
+patrz: Common Systems Architectures (Enterprise Continuum)
+
+Module 13
+
+ARCHITECTURE PATTERNS
+
+(2/14)
+wzorce pojawiają się na każdym etapie
+
+(5/14)
+idea, która kiedyś się okazała przydatna i może się przydać w przyszłości
+
+(6/14)
+wzorce na poziomie architektury
+na poziomie projektu (design, bardziej konkretny od a.)
+
+(7/14)
+widok jest pewnego rodzaju wzorcem
+wzorce są przydatne przy scenariuszach biznesowych
+
+(10/14)
+przykład
+wzorzec warstwowy
+
+EGZAMIN
+
+Informacje o egzaminie (źródło: The Open Group)
+https://certification.opengroup.org/examinations/togaf/togaf9-part1
+trwa 1h dla english natives
++ 30min dla non english natives
+2 odpowiedzi poprawne, ale jedna bardziej
+należy wskazywać tylko tę bardziej poprawną
+gdy zaznaczymy obie, to mniej punktów
+w podręczniku przykładowy podręcznik
+można zdawać stacjonarnie w Pearson VUE
+
+Niekoniecznie (wystarczą materiały kursowe):
+https://shop.opengroup.org/b180
+https://shop.opengroup.org/b097
+
+Lektura dodatkowa:
+TOGAF Library
+TOGAF Series Guide
+Practitional Aproach
+Microservices
+Architektura korporacyjna jako strategia
